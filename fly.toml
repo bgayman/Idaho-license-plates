@@ -1,0 +1,10 @@
+app = "idaho-license-plates"
+primary_region = "sea"
+
+[[statics]]
+  guest_path = "/app/build"
+  url_prefix = "/"
+
+[http_service]
+  internal_port = 80  # This is the port your app listens on (e.g., 80 for nginx, 3000 for Node.js)
+  force_https = true   # Redirect HTTP to HTTPS

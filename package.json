@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.9",
     "mapkit-typescript": "^5.18.2"
   }
 }

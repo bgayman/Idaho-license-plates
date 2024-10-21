@@ -107,6 +107,7 @@ const App: React.FC = () => {
         <div
           style={{
             width: isSidebarVisible ? '400px' : '0px',
+            maxWidth: '100%',
             height: '100vh',
             overflowY: isSidebarVisible ? 'auto' : 'hidden',
             border: isSidebarVisible ? '1px solid #ccc' : 'none',
